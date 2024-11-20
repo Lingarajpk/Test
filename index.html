@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <header class="header">
+        <div class="logo"><img src="assets/img/Logo_MortgageWeb.png"></div>
+        <div class="menu-toggle">
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="close-icon" onclick="toggleMenu()">✖</div>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+    </nav>
+    <!-- Nav End-->
+    <!-- Hero End-->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to MortgageWeb</h1>
+            <p>Your trusted mortgage solution. Start your journey today!</p>
+            <button class="cta-btn">Get Started</button>
+        </div>
+    </section>
+    <!-- Hero End-->
+    <!-- About Us-->
+    <section class="about-banner">
+        <div class="about-banner-content">
+            <h1>About MortgageWeb</h1>
+            <p>We are dedicated to providing seamless and reliable mortgage solutions tailored to your needs. Let's make
+                your dream home a reality.</p>
+            <button class="cta-btn">Learn More</button>
+        </div>
+    </section>
+    <!-- About Us End-->
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for more information. We're here to assist you!</p>
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="contact-btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+    <!-- Contact Form End-->
+    <!-- Footer-->
+    <footer class="footer">
+        <p>
+            &copy; 2024 MortgageWeb. All Rights Reserved.
+            <a href="#privacy-policy">Privacy Policy</a> |
+            <a href="#terms-of-service">Terms of Service</a>
+        </p>
+    </footer>
+    <!-- Footer End-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
